@@ -75,7 +75,6 @@ table {
     transform-style: preserve-3d;
 }
 
-/* La parte frontal de la tarjeta */
 .foto_adelante {
     position: absolute;
     width: 100%;
@@ -83,7 +82,6 @@ table {
     backface-visibility: hidden;
 }
 
-/* La parte trasera de la tarjeta */
 .foto_atras {
     position: absolute;
     width: 100%;
@@ -92,7 +90,6 @@ table {
     transform: rotateY(180deg);
 }
 
-/* Efecto de volteo al pasar el cursor */
 .foto_img:hover {
     transform: rotateY(180deg);
 }
