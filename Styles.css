@@ -51,13 +51,23 @@ body {
 .contenedor_inferior {
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 5px; 
 }
 
 .libros, .hobbies, .sitios_web {
     flex: 1; 
     margin: 20px; 
-    padding: 20px; 
+    padding: 10px; 
     border: 2px solid #000; 
     background-color: white;
 }
+table {
+    width: 100%; 
+    table-layout: fixed; 
+  }
+  
+  th, td {
+    width: 33.33%;
+    text-align: center; 
+  }
+  
